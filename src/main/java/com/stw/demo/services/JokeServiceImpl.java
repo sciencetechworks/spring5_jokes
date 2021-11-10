@@ -16,8 +16,7 @@ public class JokeServiceImpl implements JokeService {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public JokeServiceImpl()
-    {
+    public JokeServiceImpl() {
         this.chuckNorrisQuotes= new ChuckNorrisQuotes();
     }    
     
